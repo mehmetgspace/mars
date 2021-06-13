@@ -1,0 +1,53 @@
+@import "./node_modules/bootstrap/scss/bootstrap";
+
+// Base
+@import "base/global";
+@import "base/animations";
+@import "modules/bee-progress";
+
+// Modules
+@import "modules/bee-btn";
+@import "modules/site-header";
+@import "modules/site-footer";
+@import "modules/bee-modal";
+
+
+
+.toplama {
+  display: none;
+}
+
+.toplama__title {
+  display: block;
+  font-size: 100px;
+}
+
+.toplama__result {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.toplama--active {
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #e29c1c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+
+input {
+  height: 80px;
+  width: 200px;
+  padding: 10px;
+  font-size: 40px;
+  margin-bottom: 30px;
+  text-align: center;
+}

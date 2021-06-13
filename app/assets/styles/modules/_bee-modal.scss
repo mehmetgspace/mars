@@ -1,0 +1,87 @@
+.bee-modal {
+  // display: none;
+  color: #fff;
+
+  &--active {
+    //background-color: #747d8c;
+    //background-color: #2f3542;
+    //position: absolute;
+    //top: 0;
+    //right: 0;
+    //bottom: 0;
+    //left: 0;
+    //width: 100%;
+    //height: 100%;
+    //display: block;
+    //color: #fff;
+  }
+
+  &__info {
+    text-align: center;
+    padding: 25px;
+  }
+
+  &__operation {
+    text-align: center;
+    font-size: 100px;
+    margin-bottom: 30px;
+  }
+
+  &__score {
+    background-color: #ff6348;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    width: 140px;
+    height: 100px;
+    color: #fff;
+  }
+
+  &__score--success {
+    animation: example 1s;
+    transition: all .3s ease-in-out;
+    //animation-iteration-count: infinite;
+  }
+
+  &__best-score {
+    background-color: #444e5f;
+    position: absolute;
+    right: 20px;
+    top: 140px;
+    padding: 10px 20px;
+    text-align: center;
+    width: 140px;
+    height: 100px;
+    color: #fff;
+  }
+
+  &__start {
+    display: none;
+  }
+
+  &__start--active {
+    display: block;
+  }
+
+  &__result {
+    width: 300px;
+    //background-color: #2ed573;
+    color: #2ed573;
+    margin: 0 auto;
+    font-size: 24px;
+    display: none;
+  }
+
+  &__result--active {
+    display: block;
+  }
+
+  &__score-value {
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+  }
+
+}

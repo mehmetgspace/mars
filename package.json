@@ -1,9 +1,13 @@
 {
-  "name": "mars",
+  "name": "basicmathbee",
   "version": "1.0.0",
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
     "gulp-sass": "^4.1.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "jquery": "^3.5.1"
   }
 }

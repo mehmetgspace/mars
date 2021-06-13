@@ -1,0 +1,28 @@
+.bee-progress {
+  display: flex;
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
+  &__item {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #454e5d;
+    color: #8891a2;
+  }
+
+  &__item--in-progress {
+    background-color: #ffa502;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  &__item--completed {
+    background-color: #2ed573;
+    color: #fff;
+    font-weight: bold;
+  }
+
+}
